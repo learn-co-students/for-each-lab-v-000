@@ -4,7 +4,6 @@ function iterativeLog(array) {
   })
 }
 
-
 function iterate(callback) {
   var dogs = ['Caroga', 'Titan', 'Norman', 'Orion', 'Otto']
   dogs.forEach(callback)
