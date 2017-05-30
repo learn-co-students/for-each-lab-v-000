@@ -7,7 +7,13 @@ function iterativeLog(array) {
     })
    }
 
-function iterate() {
+function iterate(callback) {
   var newArray = ["love", "eat", "pray"]
-  newArray.forEach
+  newArray.forEach(callback)
+  return newArray
+}
+
+
+function doToArray(array, callback){
+  array.forEach(callback)
 }
