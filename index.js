@@ -5,7 +5,10 @@ function iterativeLog(array){
 }
 
 function iterate(callback){
+  var cars = ["Fiat", "BMW", "Subaru"];
 
+  cars.forEach(callback);
+  return cars;
 }
 
 function doToArray(array, callback){
